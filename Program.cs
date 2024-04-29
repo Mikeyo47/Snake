@@ -27,6 +27,7 @@ class Program
 
     static async Task Main(string[] args)
     {
+        Console.CursorVisible = false;
         InitializeGame();
 
         while (!shouldExit)
